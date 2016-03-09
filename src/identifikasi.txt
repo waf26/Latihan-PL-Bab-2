@@ -1,0 +1,4 @@
+Class		: Tugas2
+Object 		: m1, m[]
+Method 		: getinput, getJarak, Tampilkan
+Attribut 	: Nama, NIM, Jumlah putaran, ukuran lapangan, jumlah waktu
