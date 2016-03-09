@@ -17,7 +17,6 @@ public void jumlah(int j){
 	jumlah_waktu = new int [jumlah];
 	nama_mahasiswa = new String [jumlah];
 	nim = new String [jumlah];
-
 }
 public void lpg(int p, int l){
 	panjang = p;
@@ -30,6 +29,17 @@ public void Input(){
 		nama_mahasiswa[i] = in.next();
 		jumlahPutaran[i] = in.nextInt();
 		jumlah_waktu[i] = in.nextInt();
+	}
+}
+public void getJarak(){
+	for (int i=0;i<jumlah;i++) {
+		keliling[i] = (panjang+lebar)*2;
+		jarak[i] = jumlahPutaran[i]*keliling[i];
+	}
+}
+public void Tampilkan(){
+	for (int i=0;i<jumlah;i++) {
+		System.out.println(nama_mahasiswa[i]+" "+jarak[i]);
 	}
 }
 }
