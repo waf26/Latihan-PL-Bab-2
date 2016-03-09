@@ -12,6 +12,11 @@ public class MainTugas2{
 		p = in.nextInt();
 		l = in.nextInt();
 		m1.lpg(p,l);
-	
+		System.out.println("##INPUT##");
+		m1.Input();
+		m1.getJarak();
+		System.out.println("##OUTPUT##");
+		m1.Tampilkan();
+		m1.Bandingkan();		
 	}
 }

@@ -42,4 +42,15 @@ public void Tampilkan(){
 		System.out.println(nama_mahasiswa[i]+" "+jarak[i]);
 	}
 }
+public void Bandingkan(){
+	tmp = jumlah_waktu[0];
+	for (int i=1;i<jumlah;i++) {
+		if(jumlah_waktu[i]<tmp){
+			tmp = jumlah_waktu[i];
+			a = i;
+		}
+	}
+	System.out.println(nama_mahasiswa[a]);
+}
+}
 }
