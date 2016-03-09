@@ -1,4 +1,4 @@
-Class		: Tugas2
-Object 		: m1, m[]
-Method 		: getinput, getJarak, Tampilkan
-Attribut 	: Nama, NIM, Jumlah putaran, ukuran lapangan, jumlah waktu
+Class	 : Tugas2
+Object 	 : m1
+Method 	 : jumlah, lpg, Input, getJarak, Tampilkan, Bandingkan
+Attribut : nama_mahasiswa, nim, jumlahPutaran, keliling, jumlah_waktu, jarak
